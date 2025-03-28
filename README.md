@@ -1,6 +1,6 @@
 # Скриншоты к задаче
 
-![1](https://github.com/wintercomesX/example-teamcity/blob/main/img/1.PNG)
+![1](https://github.com/wintercomesX/example-teamcity/blob/master/img/1.PNG)
 
 ![2](https://github.com/wintercomesX/example-teamcity/blob/main/img/2.PNG)
 
