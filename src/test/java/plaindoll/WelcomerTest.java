@@ -21,6 +21,7 @@ public class WelcomerTest {
 	public void welcomerSaysHunter() {
 		assertThat(welcomer.sayWelcome(), containsString("hunter"));
 		assertThat(welcomer.sayFarewell(), containsString("hunter"));
+		assertThat(welcomer.sayHunter().toLowerCase()).contains("hunter");
 	}
 	@Test
 	public void welcomerSaysSilver(){
@@ -29,10 +30,6 @@ public class WelcomerTest {
 	@Test
 	public void welcomerSaysSomething(){
 		assertThat(welcomer.saySome(), containsString("something"));
-	}
-	@Test
-	public void welcomerSaysHunter() {
-    		assertThat(welcomer.sayHunter().toLowerCase()).contains("hunter");
 	}
 
 }
